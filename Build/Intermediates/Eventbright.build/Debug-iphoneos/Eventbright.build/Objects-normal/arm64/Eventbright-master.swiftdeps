@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "61a68206346339b54fe141296a9281c3"
+build_time: [550780838, 994632000]
+inputs:
+  "/Users/octoberhammer/Developer/Eventbright/Eventbright/SecondViewController.swift": [550780836, 0]
+  "/Users/octoberhammer/Developer/Eventbright/Eventbright/AppDelegate.swift": [550780836, 0]
+  "/Users/octoberhammer/Developer/Eventbright/Eventbright/FirstViewController.swift": [550780836, 0]

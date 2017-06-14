@@ -13,6 +13,8 @@
 		C338172F1EF1BAA400BA765E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C338172D1EF1BAA400BA765E /* Main.storyboard */; };
 		C33817311EF1BAA400BA765E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C33817301EF1BAA400BA765E /* Assets.xcassets */; };
 		C33817341EF1BAA400BA765E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33817321EF1BAA400BA765E /* LaunchScreen.storyboard */; };
+		C338173C1EF1BD8F00BA765E /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C338173B1EF1BD8F00BA765E /* SplashScreenViewController.swift */; };
+		C338173E1EF1C04E00BA765E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C338173D1EF1C04E00BA765E /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C33817301EF1BAA400BA765E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C33817331EF1BAA400BA765E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C33817351EF1BAA400BA765E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C338173B1EF1BD8F00BA765E /* SplashScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		C338173D1EF1C04E00BA765E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				C33817271EF1BAA400BA765E /* AppDelegate.swift */,
 				C33817291EF1BAA400BA765E /* FirstViewController.swift */,
+				C338173B1EF1BD8F00BA765E /* SplashScreenViewController.swift */,
 				C338172B1EF1BAA400BA765E /* SecondViewController.swift */,
 				C338172D1EF1BAA400BA765E /* Main.storyboard */,
 				C33817301EF1BAA400BA765E /* Assets.xcassets */,
 				C33817321EF1BAA400BA765E /* LaunchScreen.storyboard */,
 				C33817351EF1BAA400BA765E /* Info.plist */,
+				C338173D1EF1C04E00BA765E /* Extensions.swift */,
 			);
 			path = Eventbright;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C338173E1EF1C04E00BA765E /* Extensions.swift in Sources */,
+				C338173C1EF1BD8F00BA765E /* SplashScreenViewController.swift in Sources */,
 				C338172C1EF1BAA400BA765E /* SecondViewController.swift in Sources */,
 				C33817281EF1BAA400BA765E /* AppDelegate.swift in Sources */,
 				C338172A1EF1BAA400BA765E /* FirstViewController.swift in Sources */,

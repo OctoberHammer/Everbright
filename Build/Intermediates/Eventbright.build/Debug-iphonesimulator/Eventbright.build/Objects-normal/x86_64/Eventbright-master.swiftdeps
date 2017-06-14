@@ -1,0 +1,9 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "161a955a5803937ffe9ac6a84bafe406"
+build_time: [550783612, 607348000]
+inputs:
+  "/Users/octoberhammer/Developer/Eventbright/Eventbright/Extensions.swift": [550783612, 0]
+  "/Users/octoberhammer/Developer/Eventbright/Eventbright/SplashScreenViewController.swift": [550783476, 0]
+  "/Users/octoberhammer/Developer/Eventbright/Eventbright/SecondViewController.swift": [550780836, 0]
+  "/Users/octoberhammer/Developer/Eventbright/Eventbright/AppDelegate.swift": [550780836, 0]
+  "/Users/octoberhammer/Developer/Eventbright/Eventbright/FirstViewController.swift": [550780836, 0]
