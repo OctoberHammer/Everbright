@@ -10,8 +10,10 @@ import UIKit
 
 class SplashScreenViewController: UIViewController {
 
+	@IBOutlet weak var appTitle: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+		self.appTitle.textColor = UIColor.white
 		self.view.backgroundColor = UIColor(patternImage: imageLayerForGradientBackground())
 		perform(#selector(SplashScreenViewController.showTabBarController), with: nil, afterDelay: 4.0)
     }
