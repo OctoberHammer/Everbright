@@ -50,6 +50,8 @@ playground.xcworkspace
 # Packages/
 # Package.pins
 .build/
+Build/
+Build/*
 
 # CocoaPods - Refactored to standalone file
 

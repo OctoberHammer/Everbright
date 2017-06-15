@@ -49,6 +49,17 @@ class SplashScreenViewController: UIViewController {
 		return image!
 	}
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
     /*
     // MARK: - Navigation
 
