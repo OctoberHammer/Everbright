@@ -43,7 +43,7 @@
                             <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" selectedImage="Bowling Turkey_b3b3b3_32" systemItem="featured" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" image="Africa_000000_32" selectedImage="Africa_000000_32" id="acW-dT-cKf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -83,7 +83,7 @@
                             <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" selectedImage="Africa_b3b3b3_32" systemItem="contacts" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" image="Bowling Turkey_b3b3b3_32" selectedImage="Bowling Turkey_b3b3b3_32" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -181,7 +181,7 @@
                             <constraint firstItem="GAY-w8-p1x" firstAttribute="top" secondItem="eqZ-yz-iTQ" secondAttribute="bottom" constant="8" symbolic="YES" id="gKi-5H-ohW"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" selectedImage="Circled Female User_b3b3b3_32" systemItem="history" id="b9Z-KC-TeP" userLabel="Third"/>
+                    <tabBarItem key="tabBarItem" image="Collaboration_b3b3b3_32" selectedImage="Collaboration_b3b3b3_32" id="b9Z-KC-TeP" userLabel="Third"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YWY-2J-0bT" sceneMemberID="firstResponder"/>
             </objects>
@@ -189,8 +189,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Africa_b3b3b3_32" width="32" height="32"/>
+        <image name="Africa_000000_32" width="25" height="25"/>
         <image name="Bowling Turkey_b3b3b3_32" width="32" height="32"/>
-        <image name="Circled Female User_b3b3b3_32" width="32" height="32"/>
+        <image name="Collaboration_b3b3b3_32" width="32" height="32"/>
     </resources>
 </document>
