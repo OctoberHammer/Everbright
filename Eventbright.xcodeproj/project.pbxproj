@@ -8,28 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		C33817281EF1BAA400BA765E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33817271EF1BAA400BA765E /* AppDelegate.swift */; };
-		C338172A1EF1BAA400BA765E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33817291EF1BAA400BA765E /* FirstViewController.swift */; };
-		C338172C1EF1BAA400BA765E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C338172B1EF1BAA400BA765E /* SecondViewController.swift */; };
 		C338172F1EF1BAA400BA765E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C338172D1EF1BAA400BA765E /* Main.storyboard */; };
 		C33817311EF1BAA400BA765E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C33817301EF1BAA400BA765E /* Assets.xcassets */; };
 		C33817341EF1BAA400BA765E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33817321EF1BAA400BA765E /* LaunchScreen.storyboard */; };
-		C338173C1EF1BD8F00BA765E /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C338173B1EF1BD8F00BA765E /* SplashScreenViewController.swift */; };
-		C338173E1EF1C04E00BA765E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C338173D1EF1C04E00BA765E /* Extensions.swift */; };
 		C33817421EF2787700BA765E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C33817411EF2787700BA765E /* .gitignore */; };
+		C3B222A41EF5B971008EFE3E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B2229A1EF5B971008EFE3E /* Extensions.swift */; };
+		C3B222A51EF5B971008EFE3E /* DiscoverPagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B2229D1EF5B971008EFE3E /* DiscoverPagerViewController.swift */; };
+		C3B222A61EF5B971008EFE3E /* PopularTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B2229F1EF5B971008EFE3E /* PopularTableViewController.swift */; };
+		C3B222A71EF5B971008EFE3E /* RecomendedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B222A01EF5B971008EFE3E /* RecomendedTableViewController.swift */; };
+		C3B222A81EF5B971008EFE3E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B222A11EF5B971008EFE3E /* FirstViewController.swift */; };
+		C3B222A91EF5B971008EFE3E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B222A21EF5B971008EFE3E /* SecondViewController.swift */; };
+		C3B222AA1EF5B971008EFE3E /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B222A31EF5B971008EFE3E /* SplashScreenViewController.swift */; };
+		C3B222AC1EF5BF34008EFE3E /* NearbyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B222AB1EF5BF34008EFE3E /* NearbyTableViewController.swift */; };
+		EA4890987F3CD3D5F9BB9BEC /* Pods_Eventbright.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E517D14B37438B07C77B74 /* Pods_Eventbright.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24E517D14B37438B07C77B74 /* Pods_Eventbright.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eventbright.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62959E01D90E18F75EFCEB4D /* Pods-Eventbright.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eventbright.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eventbright/Pods-Eventbright.debug.xcconfig"; sourceTree = "<group>"; };
 		C33817241EF1BAA400BA765E /* Eventbright.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eventbright.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33817271EF1BAA400BA765E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C33817291EF1BAA400BA765E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		C338172B1EF1BAA400BA765E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		C338172E1EF1BAA400BA765E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C33817301EF1BAA400BA765E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C33817331EF1BAA400BA765E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C33817351EF1BAA400BA765E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C338173B1EF1BD8F00BA765E /* SplashScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
-		C338173D1EF1C04E00BA765E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C33817411EF2787700BA765E /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
+		C3B2229A1EF5B971008EFE3E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C3B2229D1EF5B971008EFE3E /* DiscoverPagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverPagerViewController.swift; sourceTree = "<group>"; };
+		C3B2229F1EF5B971008EFE3E /* PopularTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularTableViewController.swift; sourceTree = "<group>"; };
+		C3B222A01EF5B971008EFE3E /* RecomendedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecomendedTableViewController.swift; sourceTree = "<group>"; };
+		C3B222A11EF5B971008EFE3E /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		C3B222A21EF5B971008EFE3E /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C3B222A31EF5B971008EFE3E /* SplashScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		C3B222AB1EF5BF34008EFE3E /* NearbyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearbyTableViewController.swift; sourceTree = "<group>"; };
+		FDC4EDF0A6231B5149A14262 /* Pods-Eventbright.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eventbright.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eventbright/Pods-Eventbright.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA4890987F3CD3D5F9BB9BEC /* Pods_Eventbright.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		431BC4ABC505910F0BDC29BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24E517D14B37438B07C77B74 /* Pods_Eventbright.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C338171B1EF1BAA400BA765E = {
 			isa = PBXGroup;
 			children = (
 				C33817261EF1BAA400BA765E /* Eventbright */,
 				C33817251EF1BAA400BA765E /* Products */,
+				E6C5E024F0DC9FF990A169EA /* Pods */,
+				431BC4ABC505910F0BDC29BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,18 +85,63 @@
 		C33817261EF1BAA400BA765E /* Eventbright */ = {
 			isa = PBXGroup;
 			children = (
+				C3B222991EF5B971008EFE3E /* Sorces */,
 				C33817271EF1BAA400BA765E /* AppDelegate.swift */,
-				C33817291EF1BAA400BA765E /* FirstViewController.swift */,
-				C338173B1EF1BD8F00BA765E /* SplashScreenViewController.swift */,
-				C338172B1EF1BAA400BA765E /* SecondViewController.swift */,
 				C338172D1EF1BAA400BA765E /* Main.storyboard */,
 				C33817301EF1BAA400BA765E /* Assets.xcassets */,
 				C33817321EF1BAA400BA765E /* LaunchScreen.storyboard */,
 				C33817351EF1BAA400BA765E /* Info.plist */,
 				C33817411EF2787700BA765E /* .gitignore */,
-				C338173D1EF1C04E00BA765E /* Extensions.swift */,
 			);
 			path = Eventbright;
+			sourceTree = "<group>";
+		};
+		C3B222991EF5B971008EFE3E /* Sorces */ = {
+			isa = PBXGroup;
+			children = (
+				C3B2229A1EF5B971008EFE3E /* Extensions.swift */,
+				C3B2229B1EF5B971008EFE3E /* ViewControllers */,
+			);
+			path = Sorces;
+			sourceTree = "<group>";
+		};
+		C3B2229B1EF5B971008EFE3E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C3B222A31EF5B971008EFE3E /* SplashScreenViewController.swift */,
+				C3B2229C1EF5B971008EFE3E /* Discover */,
+				C3B222A11EF5B971008EFE3E /* FirstViewController.swift */,
+				C3B222A21EF5B971008EFE3E /* SecondViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C3B2229C1EF5B971008EFE3E /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				C3B2229D1EF5B971008EFE3E /* DiscoverPagerViewController.swift */,
+				C3B2229E1EF5B971008EFE3E /* SecondLevel */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		C3B2229E1EF5B971008EFE3E /* SecondLevel */ = {
+			isa = PBXGroup;
+			children = (
+				C3B2229F1EF5B971008EFE3E /* PopularTableViewController.swift */,
+				C3B222A01EF5B971008EFE3E /* RecomendedTableViewController.swift */,
+				C3B222AB1EF5BF34008EFE3E /* NearbyTableViewController.swift */,
+			);
+			path = SecondLevel;
+			sourceTree = "<group>";
+		};
+		E6C5E024F0DC9FF990A169EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62959E01D90E18F75EFCEB4D /* Pods-Eventbright.debug.xcconfig */,
+				FDC4EDF0A6231B5149A14262 /* Pods-Eventbright.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C33817381EF1BAA400BA765E /* Build configuration list for PBXNativeTarget "Eventbright" */;
 			buildPhases = (
+				1694171668990ABE6EF1234E /* [CP] Check Pods Manifest.lock */,
 				C33817201EF1BAA400BA765E /* Sources */,
 				C33817211EF1BAA400BA765E /* Frameworks */,
 				C33817221EF1BAA400BA765E /* Resources */,
+				F21EFEE3D91536C79C5F9D43 /* [CP] Embed Pods Frameworks */,
+				AF591C5D21A7124D0CD158E1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,16 +216,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1694171668990ABE6EF1234E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AF591C5D21A7124D0CD158E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eventbright/Pods-Eventbright-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F21EFEE3D91536C79C5F9D43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eventbright/Pods-Eventbright-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C33817201EF1BAA400BA765E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C338173E1EF1C04E00BA765E /* Extensions.swift in Sources */,
-				C338173C1EF1BD8F00BA765E /* SplashScreenViewController.swift in Sources */,
-				C338172C1EF1BAA400BA765E /* SecondViewController.swift in Sources */,
+				C3B222A91EF5B971008EFE3E /* SecondViewController.swift in Sources */,
+				C3B222AA1EF5B971008EFE3E /* SplashScreenViewController.swift in Sources */,
+				C3B222AC1EF5BF34008EFE3E /* NearbyTableViewController.swift in Sources */,
+				C3B222A41EF5B971008EFE3E /* Extensions.swift in Sources */,
 				C33817281EF1BAA400BA765E /* AppDelegate.swift in Sources */,
-				C338172A1EF1BAA400BA765E /* FirstViewController.swift in Sources */,
+				C3B222A51EF5B971008EFE3E /* DiscoverPagerViewController.swift in Sources */,
+				C3B222A61EF5B971008EFE3E /* PopularTableViewController.swift in Sources */,
+				C3B222A71EF5B971008EFE3E /* RecomendedTableViewController.swift in Sources */,
+				C3B222A81EF5B971008EFE3E /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +398,7 @@
 		};
 		C33817391EF1BAA400BA765E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62959E01D90E18F75EFCEB4D /* Pods-Eventbright.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 324M5N8HKC;
@@ -288,6 +412,7 @@
 		};
 		C338173A1EF1BAA400BA765E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDC4EDF0A6231B5149A14262 /* Pods-Eventbright.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 324M5N8HKC;
